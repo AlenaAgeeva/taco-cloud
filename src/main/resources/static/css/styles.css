@@ -2,7 +2,7 @@ body {
     background-color: powderblue;
 }
 h2 {
-    color: #00ff2a;
+    color: #1a9cd5;
 }
 h1 {
     color: blue;
@@ -42,5 +42,5 @@ a:active {
     text-decoration: underline;
 }
 img {
-    width:70%;
+    width:20%;
 }

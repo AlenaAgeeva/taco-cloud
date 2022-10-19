@@ -9,6 +9,6 @@ public class Ingredient {
     private final Type type;
 
     public enum Type{
-        WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE, GLUTEN_FREE
+        WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE, GLUTEN
     }
 }
