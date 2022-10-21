@@ -1,22 +1,28 @@
 package org.spring.project.tacocloud.tacos;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-import lombok.*;
 
 @Data
-@Entity
+@Document
 @AllArgsConstructor
-@NoArgsConstructor(access= AccessLevel.PROTECTED, force=true)
-@RequiredArgsConstructor
+@NoArgsConstructor(access= AccessLevel.PUBLIC, force=true)
 public class Ingredient  {
     @Id
+    //@Column(name = "id")
     private String id;
+    //@Column(name = "name")
     private String name;
+    //@Column(name = "type")
     private Type type;
 
     public enum Type{
         WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE, GLUTEN
     }
+
 }

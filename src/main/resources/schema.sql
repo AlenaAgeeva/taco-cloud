@@ -25,7 +25,7 @@ taco_key bigint not null
 create table if not exists Ingredient (
 ID varchar(4) not null UNIQUE,
 name varchar(25) not null,
-type varchar(10) not null
+type varchar(20) not null
 );
 
 alter table Ingredient_Ref
