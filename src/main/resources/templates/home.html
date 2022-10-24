@@ -5,10 +5,15 @@
     <link rel="stylesheet" href="/css/styles.css">
     <title>Taco Cloud</title>
 </head>
-<body style="background-image:url('/images/taco.png')">
+<body>
 <h1 title="I'm a tooltip">Welcome to...</h1>
-<h2 >Taco Cloud</h2>
-<img th:src="@{/images/taco.png}"/>
-<a th:href="@{/design}">Design Your Taco</a>
+<h2>Taco Cloud</h2>
+<p>Here you can create your personal taco recipe and then <br>
+    have it with free delivery to your home address</p>
+<a th:href="@{/design}">
+    <button class="button">
+        Design Your Taco
+    </button>
+</a>
 </body>
 </html>

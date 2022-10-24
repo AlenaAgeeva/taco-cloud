@@ -1,46 +1,154 @@
 body {
-    background-color: powderblue;
+    background-image: url("/images/taco1.jpg");
+    width: 100%;
 }
-h2 {
-    color: #1a9cd5;
-}
+
 h1 {
-    color: blue;
-    font-family: verdana;
-    font-size: 300%;
-    border: 1px solid powderblue;
+    color: #181414;
+    font-family: "Britannic Bold";
+    font-size: 80px;
+    background: rgba(255, 255, 255, 0.49);
+    width: 35%
 }
-p  {
-    color: red;
-    font-family: courier;
-    font-size: 160%;
+
+h1.order {
+    color: #181414;
+    font-family: "Britannic Bold";
+    font-size: 60px;
+    background: rgba(255, 255, 255, 0.49);
+    width: auto;
 }
-#p01 {
-    color: blue;
+
+h2 {
+    color: #eed742;
+    font-family: "Britannic Bold";
+    font-size: 40px;
+    background: rgba(204, 198, 198, 0.32);
+    padding: 5px;
+    width: 200px;
 }
-a:link {
-    color: green;
-    background-color: transparent;
+
+h2.design {
+    color: #1c1a1a;
+    font-family: "Britannic Bold";
+    font-size: 50px;
+    background: rgba(238, 223, 223, 0.57);
+    padding: 5px;
+    width: auto;
+}
+
+h3 {
+    color: white;
+    font-family: "Britannic Bold";
+    font-size: 18px;
+    background: rgba(48, 159, 38, 0.46);
+    padding: 5px;
+    width: auto;
+}
+
+p {
+    color: #181414;
+    font-family: "Britannic Bold";
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.63);
+    width: 25%
+}
+
+.button {
+    border-width: 5px;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Britannic Bold";
+    background-color: #2ba42f;
 }
 
-a:visited {
-    color: pink;
-    background-color: transparent;
+.button1 {
+    background-color: #2ba42f;
+    border-width: 5px;
+    border-color: white;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Britannic Bold";
 }
 
-a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
+.button2 {
+    background-color: #e1b340;
+    border-width: 5px;
+    border-color: white;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Britannic Bold";
 }
 
-a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
+.check {
+    font-size: 18px;
+    color: #eed742;
+    font-family: "Britannic Bold";
+    text-shadow: -1px -1px 0 #000,
+    0 -1px 0 #000,
+    1px -1px 0 #000,
+    1px 0 0 #000,
+    1px 1px 0 #000,
+    0 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 0 0 #000;
 }
-img {
-    width:20%;
+
+.name {
+    color: #ffffff;
+    font-family: "Britannic Bold";
+    font-size: 20px;
+}
+
+.label {
+    font-size: 18px;
+    color: #eed742;
+    font-family: "Britannic Bold";
+    text-shadow: -1px -1px 0 #000,
+    0 -1px 0 #000,
+    1px -1px 0 #000,
+    1px 0 0 #000,
+    1px 1px 0 #000,
+    0 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 0 0 #000;
+}
+
+.input {
+    position: relative;
+    font-size: 1.5em;
+    background: linear-gradient(21deg, rgba(124, 255, 16, 0.24), rgba(27, 234, 189, 0.45));
+    padding: 3px;
+    display: inline-block;
+    border-radius: 999em;
+}
+.error{
+    color: red ;
+    font-family: "Britannic Bold";
+    font-size: 25px;
+    text-shadow:
+            1px 1px #fff,
+            -1px 1px #fff,
+            1px -1px #fff,
+            -1px -1px #fff,
+            1px 1px 5px #555;
 }
