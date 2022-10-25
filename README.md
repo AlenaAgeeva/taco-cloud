@@ -1,12 +1,12 @@
 <h1 align="left">Taco Cloud Spring Boot Project</h1>
-<h3 align="left">The program present itself a simulator of online taco delivery website where clients are able to create their own tacos with different ingredients and
+<h3 align="left">The program presents itself a simulator of online taco delivery website where clients are able to create their own tacos with different ingredients and
 fill in their info for a delivery.</h3>
 <p align="left">The system starts with a main page where a user clicks on a button to start a process of taco creation</p>
 <p align="left">Then it goes to a new page where controllers add all chosen ingredients into a model for further actions.</p>
 <p align="left">After that the client have two options: create another taco or continue ordering this one.</p>
 <p align="left">When form for delivery is filled in the application checks all errors that can potentially occur and shows up them with red color.</p>
-<p align="left">After correcting all errors and hiting the submit button the order will be inserted into MongoDb database.</p>
-<p align="left">When all steps are completely done the program redirect the user to the main page for starting all over again.</p>
+<p align="left">After correcting all errors and hiting the submit button data for the order will be inserted into MongoDb database.</p>
+<p align="left">When all steps are completely done the program redirects the user to the main page for starting all over again.</p>
 <h4 align="left">Updates</h4>
 <p align="left">1. Project will be updated as some new features will be applied.</p>
 <h2 align="left">Used technologies:</h2>
