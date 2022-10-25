@@ -18,6 +18,9 @@ fill in their info for a delivery.</h3>
 <li>JUnit</li>
 <li>Css and Html</li>
 <li>Thymeleaf</li>
+<li>Lombok</li>
+<li>Maven</li>
+<li>TomCat</li>
 </p>
 <p align="left">
   <img src="https://user-images.githubusercontent.com/67174823/197652233-2db68b2a-6d08-48d3-85e1-f4338625a8f0.jpg" width="85%">
